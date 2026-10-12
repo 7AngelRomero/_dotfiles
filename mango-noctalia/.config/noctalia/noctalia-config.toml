@@ -1,0 +1,455 @@
+[accessibility]
+ui_scale = 1.1000000089406967
+
+[audio]
+enable_overdrive = true
+enable_sounds = true
+notification_sound = "/home/justblind-nsx/.config/noctalia/sounds/gran_turismo_3_select.wav"
+sound_volume = 0.99999997764825821
+volume_change_sound = "/home/justblind-nsx/.config/noctalia/sounds/menu_sound_1.wav"
+
+[bar]
+order = [ "Celica" ]
+
+    [bar.Celica]
+    background_opacity = 0.84999998100101948
+    border = "tertiary"
+    capsule_radius = 8
+    center = [ "group:g1" ]
+    end = [ "weather", "group:g3", "group:g4", "widget" ]
+    font_family = "Audiowide"
+    font_weight = 400
+    margin_edge = 5
+    margin_ends = 9
+    radius = 12
+    radius_bottom_left = 12
+    radius_bottom_right = 12
+    radius_top_left = 12
+    radius_top_right = 12
+    scale = 0.90000000596046448
+    shadow = false
+    start = [ "group:g6", "group:g5", "group:g7" ]
+
+        [[bar.Celica.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        enabled = true
+        fill = "surface_variant"
+        id = "g3"
+        members = [
+            "tray",
+            "screenshot",
+            "recorder",
+            "clipboard",
+            "status",
+            "notifications",
+            "network",
+            "bluetooth",
+            "volume",
+            "battery"
+        ]
+        opacity = 0.44999998807907104
+        padding = 10.0
+        radius = 10.0
+
+        [[bar.Celica.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        enabled = true
+        fill = "surface_variant"
+        id = "g4"
+        members = [ "clock", "session" ]
+        opacity = 0.44999998807907104
+        padding = 6.0
+        radius = 10.0
+
+        [[bar.Celica.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        enabled = true
+        fill = "surface_variant"
+        id = "g1"
+        members = [ "custom_button_3", "active_window", "workspaces", "btn", "privacy", "custom_button_4" ]
+        opacity = 0.44999998807907104
+        padding = 10.0
+        radius = 12.0
+
+        [[bar.Celica.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        enabled = true
+        fill = "surface_variant"
+        id = "g5"
+        members = [ "cpu", "temp", "ram" ]
+        opacity = 0.44999998807907104
+        padding = 10.0
+        radius = 10.0
+
+        [[bar.Celica.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        enabled = true
+        fill = "surface_variant"
+        id = "g6"
+        members = [ "control-center", "custom_button_2" ]
+        opacity = 0.44999998807907104
+        padding = 6.0
+        radius = 10.0
+
+        [[bar.Celica.capsule_group]]
+        accordion = false
+        accordion_direction = "end"
+        enabled = true
+        fill = "surface_variant"
+        id = "g7"
+        members = [ "media", "taskbar" ]
+        opacity = 0.44999998807907104
+        padding = 10.0
+        radius = 10.0
+
+[calendar]
+enabled = true
+
+[control_center]
+sidebar = "full"
+sidebar_section = "full"
+
+[desktop_widgets]
+schema_version = 2
+widget_order = [ "desktop-widget-0000000000000001", "desktop-widget-0000000000000002" ]
+
+    [desktop_widgets.grid]
+    cell_size = 8
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000001]
+    box_height = 80.0
+    box_width = 216.0
+    cx = 1804.0
+    cy = 140.0
+    output = "eDP-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "clock"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000001.settings]
+        background = false
+        center_text = true
+        clock_style = "digital"
+        color = "#FEA63B"
+        font_family = "Audiowide"
+        format = ">> {:%I:%M %P}"
+        shadow = false
+
+    [desktop_widgets.widget.desktop-widget-0000000000000002]
+    box_height = 32.0
+    box_width = 128.0
+    cx = 1824.0
+    cy = 172.0
+    output = "eDP-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "clock"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000002.settings]
+        background = false
+        center_text = true
+        clock_style = "digital"
+        color = "#FEA63B"
+        font_family = "Audiowide"
+        format = ">> {:%A %d}"
+        shadow = false
+
+[dock]
+auto_hide = true
+background_opacity = 0.84999998100101948
+cross_axis_padding = 2
+enabled = true
+icon_size = 33
+inactive_scale = 0.70000001043081284
+item_spacing = 7
+launcher_position = "start"
+magnification_scale = 1.2000000029802322
+main_axis_padding = 11
+margin_edge = 10
+margin_ends = 10
+pinned = [ "kitty", "zen" ]
+radius = 10
+reserve_space = false
+shadow = false
+show_dots = true
+
+[hot_corners]
+enabled = true
+
+    [hot_corners.bottom_left]
+    action = "window_switcher"
+
+    [hot_corners.bottom_right]
+    action = "window_switcher"
+
+    [hot_corners.top_left]
+    action = "control_center"
+
+    [hot_corners.top_right]
+    action = "launcher"
+
+[location]
+auto_locate = true
+
+[lockscreen]
+blurred_desktop = true
+fingerprint = false
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [ "lockscreen-login-box@eDP-1" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 196.0
+    box_width = 720.0
+    cx = 960.0
+    cy = 961.0
+    output = "eDP-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[notification]
+background_opacity = 0.9499999787658453
+offset_y = 10
+position = "bottom_right"
+
+[osd]
+background_opacity = 0.84999998100101948
+
+[plugin_settings."aristides/udiskie"]
+auto_open_filemanager = true
+manager_open_near_click = true
+
+[plugin_settings."ezequiel/mango_layouts"]
+panel_position = "auto"
+
+[plugin_settings."noctalia/screen_recorder"]
+copy_to_clipboard = true
+quality = "medium"
+restore_portal = true
+video_source = "focused"
+
+[plugins]
+enabled = [
+    "gambled23/mangowm-keymode",
+    "noctalia/screen_recorder",
+    "aristides/udiskie",
+    "ezequiel/mango_layouts",
+    "oldirtty/color_picker"
+]
+
+[shell]
+avatar_path = "/home/justblind-nsx/Pictures/Download/s2ound.jpeg"
+lang = "en"
+screen_time_enabled = true
+time_format = "{:%I:%M %p}"
+
+    [shell.launcher]
+    app_grid = true
+    session_search = true
+
+    [shell.panel]
+    clipboard_position = "auto"
+    control_center_placement = "floating"
+    open_near_click_clipboard = true
+    open_near_click_control_center = true
+    polkit_position = "auto"
+    session_placement = "floating"
+    session_position = "center"
+    transparency_mode = "soft"
+    wallpaper_placement = "floating"
+    wallpaper_position = "center"
+
+    [shell.screenshot]
+    confirm_region = true
+    directory = "/home/justblind-nsx/Pictures/Screenshots"
+
+[theme]
+builtin = "Tokyo-Night"
+community_palette = "Paradise"
+custom_palette = "Unleashed_Celica"
+mode = "dark"
+source = "custom"
+wallpaper_scheme = "m3-rainbow"
+
+    [theme.templates]
+    builtin_ids = [ "btop", "cava", "gtk3", "gtk4", "kcolorscheme", "kitty", "mango", "qt", "starship" ]
+    community_ids = [ "papirus-icons", "yazi" ]
+
+[wallpaper]
+directory = "/home/justblind-nsx/Pictures/Wallpapers"
+fill_mode = "span"
+
+    [wallpaper.default]
+    path = "/home/justblind-nsx/Pictures/Wallpapers/Artboard update 1@2x.png"
+
+    [wallpaper.last]
+    path = "/home/justblind-nsx/Pictures/Wallpapers/Artboard update 1@2x.png"
+
+    [wallpaper.monitors.eDP-1]
+    path = "/home/justblind-nsx/Pictures/Wallpapers/Artboard update 1@2x.png"
+
+[widget.active_window]
+display = "icon_only"
+interactive = false
+max_length = 40
+min_length = 0
+scale = 1.4000000000000001
+
+[widget.battery]
+scale = 1.1000000000000001
+
+[widget.bluetooth]
+enabled = false
+scale = 1.1000000000000001
+
+[widget.btn]
+enabled = false
+scale = 1.1000000000000001
+type = "ezequiel/mango_layouts:btn"
+
+[widget.clipboard]
+scale = 1.1000000000000001
+
+[widget.clock]
+format = ">> {:%-I:%M %p}"
+scale = 1.4000000000000001
+
+[widget.control-center]
+capsule_opacity = 0.5
+capsule_padding = 10
+capsule_radius = 6
+custom_image = "/usr/share/icons/cachyos.svg"
+custom_image_colorize = true
+scale = 1.5
+
+[widget.cpu]
+display = "text"
+scale = 1.05
+visualization = "none"
+
+[widget.custom_button_2]
+glyph = ""
+interactive = false
+label = "<<"
+scale = 1.4000000000000001
+type = "custom_button"
+
+[widget.custom_button_3]
+glyph = "arrow-badge-left-filled"
+interactive = false
+scale = 1.4000000000000001
+type = "custom_button"
+
+[widget.custom_button_4]
+glyph = "arrow-badge-right-filled"
+interactive = false
+scale = 1.4000000000000001
+type = "custom_button"
+
+[widget.media]
+art_size = 47
+capsule_opacity = 0.5
+capsule_padding = 10
+capsule_radius = 6
+hide_when_no_media = true
+title_scroll = "on_hover"
+
+[widget.network]
+scale = 1.1000000000000001
+show_label = false
+
+[widget.notifications]
+scale = 1.1000000000000001
+
+[widget.privacy]
+enabled = true
+interactive = false
+scale = 1.1000000000000001
+
+[widget.ram]
+display = "text"
+scale = 1.05
+visualization = "none"
+
+[widget.recorder]
+scale = 1.0
+type = "noctalia/screen_recorder:recorder"
+
+[widget.screenshot]
+scale = 1.1000000000000001
+
+[widget.session]
+enabled = false
+font_family = "Audiowide"
+scale = 1.4000000000000001
+
+[widget.status]
+type = "aristides/udiskie:status"
+
+[widget.taskbar]
+enabled = false
+
+[widget.temp]
+display = "text"
+scale = 1.05
+visualization = "none"
+
+[widget.tray]
+capsule = true
+capsule_padding = 15
+detached_panel = true
+drawer = true
+drawer_item_size = 19.0
+match_adjacent_spacing = true
+scale = 1.1500000000000001
+
+[widget.volume]
+scale = 1.1000000000000001
+show_label = false
+
+[widget.weather]
+capsule = true
+capsule_opacity = 0.45000000000000001
+capsule_padding = 10
+capsule_radius = 10
+
+[widget.widget]
+enabled = false
+type = "oldirtty/color_picker:widget"
+
+[widget.workspaces]
+labels_only_when_occupied = true
