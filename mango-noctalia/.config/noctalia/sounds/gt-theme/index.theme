@@ -1,0 +1,8 @@
+[Sound Theme]
+Name=gt-theme
+Comment=Tema Gran Turismo
+Inherits=freedesktop
+Directories=.
+
+[.]
+OutputProfile=stereo
