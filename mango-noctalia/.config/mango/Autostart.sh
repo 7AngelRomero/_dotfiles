@@ -1,7 +1,7 @@
 #!/bin/bash
 # Update DBus/Systemd env first
-dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=wlroots XDG_SESSION_TYPE=wayland XDG_MENU_PREFIX &
-systemctl --user restart xdg-desktop-portal &
+dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP XDG_SESSION_TYPE XDG_MENU_PREFIX QT_QPA_PLATFORMTHEME
+systemctl --user restart xdg-desktop-portal plasma-xdg-desktop-portal-kde &
 kbuildsycoca6 --noincremental &
 
 # Init Noctalia V5
