@@ -29,12 +29,12 @@ DecorationFocus=239,137,33
 DecorationHover=239,137,33
 ForegroundActive=239,137,33
 ForegroundInactive=198,198,198
-ForegroundLink=249,210,148
+ForegroundLink=239,137,33
 ForegroundNegative=255,180,171
 ForegroundNeutral=254,254,254
 ForegroundNormal=226,226,226
 ForegroundPositive=254,254,254
-ForegroundVisited=249,210,148
+ForegroundVisited=239,137,33
 
 [Colors:Complementary]
 BackgroundAlternate=25,28,29
@@ -43,12 +43,12 @@ DecorationFocus=239,137,33
 DecorationHover=239,137,33
 ForegroundActive=239,137,33
 ForegroundInactive=198,198,198
-ForegroundLink=249,210,148
+ForegroundLink=239,137,33
 ForegroundNegative=255,180,171
 ForegroundNeutral=254,254,254
 ForegroundNormal=246,143,42
 ForegroundPositive=254,254,254
-ForegroundVisited=249,210,148
+ForegroundVisited=239,137,33
 
 [Colors:Header]
 BackgroundAlternate=19,22,23
@@ -57,12 +57,12 @@ DecorationFocus=239,137,33
 DecorationHover=239,137,33
 ForegroundActive=239,137,33
 ForegroundInactive=198,198,198
-ForegroundLink=249,210,148
+ForegroundLink=239,137,33
 ForegroundNegative=255,180,171
 ForegroundNeutral=254,254,254
 ForegroundNormal=226,226,226
 ForegroundPositive=254,254,254
-ForegroundVisited=249,210,148
+ForegroundVisited=239,137,33
 
 [Colors:Header][Inactive]
 BackgroundAlternate=31,34,35
@@ -71,12 +71,12 @@ DecorationFocus=239,137,33
 DecorationHover=239,137,33
 ForegroundActive=239,137,33
 ForegroundInactive=198,198,198
-ForegroundLink=249,210,148
+ForegroundLink=239,137,33
 ForegroundNegative=255,180,171
 ForegroundNeutral=254,254,254
 ForegroundNormal=226,226,226
 ForegroundPositive=254,254,254
-ForegroundVisited=249,210,148
+ForegroundVisited=239,137,33
 
 [Colors:Selection]
 BackgroundAlternate=25,28,29
@@ -85,12 +85,12 @@ DecorationFocus=239,137,33
 DecorationHover=239,137,33
 ForegroundActive=81,36,0
 ForegroundInactive=198,198,198
-ForegroundLink=249,210,148
-ForegroundNegative=89,69,67
-ForegroundNeutral=89,91,92
+ForegroundLink=239,137,33
+ForegroundNegative=255,180,171
+ForegroundNeutral=254,254,254
 ForegroundNormal=81,36,0
-ForegroundPositive=89,91,92
-ForegroundVisited=249,210,148
+ForegroundPositive=254,254,254
+ForegroundVisited=239,137,33
 
 [Colors:Tooltip]
 BackgroundAlternate=19,22,23
@@ -99,26 +99,26 @@ DecorationFocus=239,137,33
 DecorationHover=239,137,33
 ForegroundActive=239,137,33
 ForegroundInactive=198,198,198
-ForegroundLink=249,210,148
+ForegroundLink=239,137,33
 ForegroundNegative=255,180,171
 ForegroundNeutral=254,254,254
 ForegroundNormal=226,226,226
 ForegroundPositive=254,254,254
-ForegroundVisited=249,210,148
+ForegroundVisited=239,137,33
 
 [Colors:View]
 BackgroundAlternate=31,34,35
 BackgroundNormal=19,22,23
-DecorationFocus=246,143,42
-DecorationHover=81,36,0
+DecorationFocus=239,137,33
+DecorationHover=239,137,33
 ForegroundActive=239,137,33
 ForegroundInactive=198,198,198
-ForegroundLink=249,210,148
+ForegroundLink=239,137,33
 ForegroundNegative=255,180,171
 ForegroundNeutral=254,254,254
 ForegroundNormal=226,226,226
 ForegroundPositive=254,254,254
-ForegroundVisited=249,210,148
+ForegroundVisited=239,137,33
 
 [Colors:Window]
 BackgroundAlternate=85,56,26
@@ -127,12 +127,12 @@ DecorationFocus=239,137,33
 DecorationHover=239,137,33
 ForegroundActive=239,137,33
 ForegroundInactive=198,198,198
-ForegroundLink=249,210,148
+ForegroundLink=239,137,33
 ForegroundNegative=255,180,171
 ForegroundNeutral=254,254,254
 ForegroundNormal=226,226,226
 ForegroundPositive=254,254,254
-ForegroundVisited=249,210,148
+ForegroundVisited=239,137,33
 
 [General]
 ColorScheme=noctalia
@@ -150,19 +150,19 @@ widgetStyle=qt6ct-style
 Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=true
-Decoration position=0
+Decoration position=2
 Preview Width=265
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=false
-Sort by=Name
+Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=173
-View Style=Detail
+View Style=Simple
 
 [KShortcutsDialog Settings]
 Dialog Size=627,480
